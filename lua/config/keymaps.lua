@@ -1,1 +1,1 @@
-/nix/store/vkp9fxhwz4w7yhjcrr76knhlq9v77mq2-home-manager-files/.config/nvim/lua/config/keymaps.lua
+/nix/store/3j1y0w4nk4sjgsbxnhcymkv0ailnlay9-home-manager-files/.config/nvim/lua/config/keymaps.lua
