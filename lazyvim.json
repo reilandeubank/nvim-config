@@ -1,1 +1,10 @@
-/nix/store/vkp9fxhwz4w7yhjcrr76knhlq9v77mq2-home-manager-files/.config/nvim/lazyvim.json
+{
+  "extras": [
+
+  ],
+  "install_version": 7,
+  "news": {
+    "NEWS.md": "10960"
+  },
+  "version": 8
+}

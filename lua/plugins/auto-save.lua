@@ -1,1 +1,15 @@
-/nix/store/vkp9fxhwz4w7yhjcrr76knhlq9v77mq2-home-manager-files/.config/nvim/lua/plugins/auto-save.lua
+return {
+  "Pocco81/auto-save.nvim",
+  lazy = false,
+  opts = {
+    debounce_delay = 500,
+    execution_message = {
+      message = function()
+        return ""
+      end,
+    },
+  },
+  keys = {
+    { "<leader>uv", "<cmd>ASToggle<CR>", desc = "Toggle autosave" },
+  },
+}

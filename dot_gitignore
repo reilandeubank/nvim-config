@@ -1,1 +1,8 @@
-/nix/store/vkp9fxhwz4w7yhjcrr76knhlq9v77mq2-home-manager-files/.config/nvim/dot_gitignore
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
