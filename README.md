@@ -1,0 +1,1 @@
+/nix/store/vkp9fxhwz4w7yhjcrr76knhlq9v77mq2-home-manager-files/.config/nvim/README.md
