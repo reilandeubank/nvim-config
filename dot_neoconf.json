@@ -1,1 +1,15 @@
-/nix/store/3j1y0w4nk4sjgsbxnhcymkv0ailnlay9-home-manager-files/.config/nvim/dot_neoconf.json
+{
+  "neodev": {
+    "library": {
+      "enabled": true,
+      "plugins": true
+    }
+  },
+  "neoconf": {
+    "plugins": {
+      "lua_ls": {
+        "enabled": true
+      }
+    }
+  }
+}

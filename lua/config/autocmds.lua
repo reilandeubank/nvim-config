@@ -1,1 +1,3 @@
-/nix/store/3j1y0w4nk4sjgsbxnhcymkv0ailnlay9-home-manager-files/.config/nvim/lua/config/autocmds.lua
+-- Autocmds are automatically loaded on the VeryLazy event
+-- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
+-- Add any additional autocmds here
