@@ -17,9 +17,9 @@ return {
       markdown = { "prettierd", "prettier" },
     })
 
-    opts.format_on_save = vim.tbl_extend("force", opts.format_on_save or {}, {
-      lsp_fallback = true,
-      timeout_ms = 5000,
-    })
+    -- opts.format_on_save = vim.tbl_extend("force", opts.format_on_save or {}, {
+    --   lsp_fallback = true,
+    --   timeout_ms = 5000,
+    -- })
   end,
 }
