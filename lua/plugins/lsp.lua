@@ -24,9 +24,7 @@ return {
         },
       },
 
-      pyright = { mason = false },
-      bashls = { mason = false },
-      rust_analyzer = { mason = false },
+      ruff = { mason = false },
       tsserver = { mason = false }, -- or switch to vtsls if you prefer
     },
   },
