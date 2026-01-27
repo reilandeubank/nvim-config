@@ -19,8 +19,6 @@ require("lazy").setup({
     -- Enable plugins for specific file types
     { filetype = "python", import = "lazyvim.plugins.extras.lang.python" },
     -- { filetype = "javascript", import = "lazyvim.plugins.extras.lang.javascript" },
-    { filetype = "go", import = "lazyvim.plugins.extras.lang.go" },
-    { filetype = "rust", import = "lazyvim.plugins.extras.lang.rust" },
     -- { filetype = "jsx", import = "lazyvim.plugins.extras.lang.jsx" },
   },
   defaults = {
