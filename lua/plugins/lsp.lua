@@ -2,17 +2,14 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
-      -- Pick one Nix language server; nixd is the newer one:
-      nixd = {
-        mason = false, -- use the system/nix-provided server
+      nil_ls = {
+        mason = false,
         settings = {
-          nixd = {
+          ["nil"] = {
             formatting = { command = { "alejandra" } },
           },
         },
       },
-      -- If you prefer nil instead of nixd, use this and remove nixd:
-      -- nil_ls = { mason = false },
 
       lua_ls = {
         mason = false,
@@ -25,7 +22,7 @@ return {
       },
 
       ruff = { mason = false },
-      tsserver = { mason = false }, -- or switch to vtsls if you prefer
+      vtsls = { mason = false },
     },
   },
 }
