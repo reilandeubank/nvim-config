@@ -2,6 +2,8 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 
+vim.opt.clipboard = "unnamedplus"
+
 -- Use OSC 52 for clipboard so yanking/pasting works over SSH (e.g. Windows Terminal)
 vim.g.clipboard = {
   name = "OSC 52",
