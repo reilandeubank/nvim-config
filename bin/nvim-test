@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+config_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+config_parent="$(dirname -- "$config_dir")"
+config_name="$(basename -- "$config_dir")"
+
+export XDG_CONFIG_HOME="$config_parent"
+export NVIM_APPNAME="$config_name"
+
+exec nvim "$@"
