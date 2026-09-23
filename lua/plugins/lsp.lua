@@ -21,6 +21,7 @@ return {
         },
       },
 
+      pyright = { mason = false },
       ruff = { mason = false },
       vtsls = { mason = false },
     },
